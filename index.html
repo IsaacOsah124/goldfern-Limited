@@ -3,26 +3,250 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b606ba675b.js"
+      crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goldfern Limited : Home</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="brand-title">Brand</div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo"><img src="./images/logo.png" alt="" /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
         </ul>
+
+        <div class="btn">
+          <button class="btn1">Sign Up</button>
+          <button class="btn2">Location</button>
+        </div>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-bg">
+      <div class="bg"><img src="./images/bg1.jpg" alt="" /></div>
+      <div class="bg-Content">
+        <h1 class="bg-h1">Unveiling</h1>
+        <h1 class="bg-h1">Tomorrow's Homes</h1>
+        <div class="search-display">
+          <div class="search-box">
+            <div class="search-break">
+              <div class="display-box">
+                <h2>Buy / Rent</h2>
+                <select class="options" name="options">
+                  <option value="option1">Buy</option>
+                  <option value="option2">Rent</option>
+                </select>
+              </div>
+
+              <div class="display-box">
+                <h2>Property</h2>
+                <select class="options" name="options">
+                  <option value="option1">House</option>
+                  <option value="option2">Shop</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="search-break">
+              <div class="display-box">
+                <h2>Location</h2>
+                <select class="options" name="options">
+                  <option value="option1">Osu</option>
+                  <option value="option2">Adenta</option>
+                </select>
+              </div>
+
+              <div class="display-box">
+                <h2>Price</h2>
+                <select class="options" name="options">
+                  <option value="option1">$20000</option>
+                  <option value="option2">$500000</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <button class="find-Btn">Find Now</button>
+        </div>
       </div>
-    </nav>
+    </div>
+
+    <div class="general-Content">
+      <h1 class="g-h1">Real estate for living and investments</h1>
+      <div class="g-Content">
+        <div class="g-image">
+          <img src="./images/bg2.jpg" alt="" />
+        </div>
+        <div class="g-Flex">
+          <div class="g-box1">
+            <p>
+              201Prague Dr, <br />
+              Spintex, Accra
+            </p>
+            <i class="fa-regular fa-bookmark"></i>
+          </div>
+
+          <div class="g-box2">
+            <div class="details">
+              <h3>4</h3>
+              beds
+            </div>
+            <div class="details">
+              <h3>3</h3>
+              baths
+            </div>
+            <div class="details">
+              <h3>1,868</h3>
+              sqft
+            </div>
+          </div>
+
+          <div class="g-box3">
+            <h3>$1,650,000</h3>
+            <div class="split">
+              Split options
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+          </div>
+
+          <div class="g-box4">
+            <div class="agent">
+              <img src="./images/profile.jpg" alt="" />
+              <h4>Agent</h4>
+              <p>Amelia Okumah</p>
+            </div>
+            <button class="cBtn">Contact</button>
+          </div>
+
+          <div class="g-box5">
+            <button class="reqTour">Request a tour</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-More">
+      <div class="moreBox">
+        <div class="moreGroup">
+          <div class="loc">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="locBox">
+              Location
+              <h3>San Jose, CA</h3>
+            </div>
+          </div>
+
+          <div class="loc">
+            <i class="fa-solid fa-house"></i>
+            <div class="locBox">
+              Property type
+              <h3>Apartments</h3>
+            </div>
+          </div>
+          <div class="loc">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <div class="locBox">
+              Price
+              <h3>$2,000 - $13,000</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="moreGroup1">
+          <div class="loc">
+            <i class="fa-solid fa-maximize"></i>
+            <div class="locBox">
+              Bedrooms
+              <h3>3-6</h3>
+            </div>
+          </div>
+
+          <div class="more">
+            <i class="fa-solid fa-filter"></i>
+            <div class="locBox">
+              <h3>More</h3>
+            </div>
+          </div>
+          <div class="moreSearch">
+            <button>search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lastest">
+      <div class="lastest-text">
+        <h1>Lastest in your area</h1>
+        <div class="btn-views">
+          View all <i class="fa-solid fa-greater-than"></i>
+        </div>
+      </div>
+      <div class="home-List">
+        <div class="home">
+          <img src="./images/home1.jpg" alt="" />
+          <h3>$234,000</h3>
+          <div class="it">
+            <p>1bed</p>
+            <p>1bath</p>
+            <p>560sqft</p>
+          </div>
+          <p>
+            244 Okumah Street, <br />
+            Trasco Annex, CT5640
+          </p>
+        </div>
+
+        <div class="home">
+          <img src="./images/home2.jpg" alt="" />
+          <h3>$234,000</h3>
+          <div class="it">
+            <p>1bed</p>
+            <p>1bath</p>
+            <p>560sqft</p>
+          </div>
+          <p>
+            244 Okumah Street, <br />
+            Trasco Annex, CT5640
+          </p>
+        </div>
+
+        <div class="home1">
+          <img src="./images/home3.jpg" alt="" />
+          <h3>$234,000</h3>
+          <div class="it">
+            <p>1bed</p>
+            <p>1bath</p>
+            <p>560sqft</p>
+          </div>
+          <p>
+            244 Okumah Street, <br />
+            Trasco Annex, CT5640
+          </p>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
