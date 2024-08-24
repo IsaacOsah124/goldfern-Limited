@@ -552,6 +552,149 @@ a {
 
 /*End of home-List*/
 
+.agentContent {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 5rem;
+  background: rgb(228, 228, 228);
+  width: 100%;
+  height: 35rem;
+}
+.agentBox {
+  border-radius: 20px;
+  width: 25rem;
+  height: 25rem;
+  background: white;
+  box-shadow: 1px 1px 10px 1px #080d131d;
+}
+.agentBox h1 {
+  font-size: 4rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.agentBox p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.8rem;
+  padding-bottom: 30px;
+}
+.topAgents {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 84%;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #080d13;
+}
+.topAgents:hover {
+  background: #dab612;
+}
+.topAgents i {
+  padding-left: 10px;
+}
+.agentGroup {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.agentBox1 {
+  width: 20rem;
+  height: 22rem;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 1px 1px 10px 1px #080d131d;
+}
+.item1 {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item1 img {
+  height: 7rem;
+  padding: 10px;
+  border-radius: 50px;
+}
+.item1 p {
+  font-size: 13px;
+  font-weight: bold;
+}
+.item1 i {
+  color: #fab600;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.agentBox1 h3 {
+  padding-left: 10px;
+  font-size: 19px;
+  padding-bottom: 8px;
+}
+.agentBox1 p {
+  padding-left: 10px;
+  font-size: 12px;
+  padding-bottom: 22px;
+}
+.item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item2 button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px;
+  width: 15rem;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.item2 button:hover {
+  background: #dab612;
+}
+/*End of Agent Section*/
+
+/*Start of interest*/
+.interestText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  padding-left: 40px;
+}
+.interestText h1 {
+  font-size: 4rem;
+}
+.InBtn {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 15rem;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #080d13;
+}
+.InBtn i {
+  padding-left: 10px;
+}
+.InBtn:hover {
+  background: #dab612;
+}
+
+/*End of interest*/
+
 /*Screen Flexibility*/
 @media only screen and (max-width: 1024px) {
   .bg-Content {
@@ -591,6 +734,9 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .lastest {
+    height: 100%;
+  }
   .lastest-text h1 {
     font-size: 3.5rem;
   }
@@ -599,6 +745,24 @@ a {
   }
   .home-List {
     gap: 2rem;
+    height: 100%;
+  }
+  .agentContent {
+    display: block;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .agentGroup {
+    justify-content: space-between;
+    padding-bottom: 40px;
+    justify-content: space-around;
+  }
+  .agentBox {
+    width: 58%;
+  }
+  .agentBox1 {
+    width: 27%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -690,6 +854,15 @@ a {
   .lastest-text h1 {
     font-size: 3rem;
   }
+  .home-List {
+    display: block;
+    height: 100%;
+  }
+  .home,
+  .home1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (max-width: 640px) {
   .general-Content {
@@ -708,19 +881,20 @@ a {
     width: 92%;
   }
   .lastest {
-    height: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
   }
   .lastest-text h1 {
     font-size: 2.5rem;
   }
   .home-List {
+    height: 100%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
   }
   .home,
   .home1 {
+    margin-bottom: 20px;
     width: 100%;
   }
 }
@@ -769,7 +943,35 @@ a {
   .moreSearch button {
     width: 80%;
   }
+  .lastest {
+    height: 100%;
+  }
   .lastest-text h1 {
     font-size: 2rem;
+  }
+  .agentGroup {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .agentBox1,
+  .agentBox {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .item1 {
+    padding-bottom: 20px;
+  }
+  .it {
+    gap: 1.2rem;
+  }
+  .bg-Content {
+    margin-right: 20px;
+  }
+  .agentGroup {
+    padding-bottom: 0px;
+  }
+  .item2 button {
+    margin-bottom: 50px;
   }
 }
