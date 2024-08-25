@@ -771,6 +771,81 @@ a {
 }
 /*End of interest*/
 
+/*Start of emailContent*/
+.emailContent {
+  height: 50rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: rgb(228, 228, 228);
+  width: 100%;
+}
+.emailBox {
+  background-image: url(/images/email.jpg);
+  background-repeat: none;
+  background-position: top;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 90%;
+  height: 40rem;
+}
+.emailBox img {
+  object-fit: cover;
+  width: 100%;
+  height: 40rem;
+  border-radius: 20px;
+}
+.emailText {
+  width: 100%;
+}
+.emailText h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  align-items: center;
+  padding-top: 50px;
+}
+.emailText p {
+  padding-top: 20px;
+  font-size: 1.7rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.submitBtn {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.submitBtn input {
+  padding: 12px;
+  width: 30rem;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.585);
+}
+.submitBtn button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px;
+  width: 17rem;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.585);
+}
+.submitBtn button:hover {
+  background: #dab612;
+}
+
+/*End of emailContent*/
+
 /*Screen Flexibility*/
 @media only screen and (max-width: 1024px) {
   .bg-Content {
@@ -839,6 +914,9 @@ a {
   }
   .agentBox1 {
     width: 27%;
+  }
+  .emailText h1 {
+    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1009,6 +1087,9 @@ a {
     padding-right: 20px;
     padding-bottom: 1rem;
   }
+  .emailText h1 {
+    font-size: 4rem;
+  }
 }
 @media only screen and (max-width: 470px) {
   .bg-Content {
@@ -1093,5 +1174,27 @@ a {
     font-size: 1.8rem;
     padding-left: 0px;
     padding: 0px;
+  }
+  .emailText h1 {
+    font-size: 2.5rem;
+  }
+  .emailText p {
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .submitBtn {
+    display: block;
+  }
+  .submitBtn input {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .submitBtn button {
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
