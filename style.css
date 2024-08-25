@@ -692,7 +692,83 @@ a {
 .InBtn:hover {
   background: #dab612;
 }
+.interestBox {
+  border-radius: 20px;
+  height: 40rem;
+  width: 60rem;
+  background: white;
+  box-shadow: 1px 2px 10px 2px #53535349;
+  padding-bottom: 20px;
+}
+.interestBox img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.interestBox h3 {
+  font-size: 1.4rem;
+  padding: 4px;
+  padding-left: 20px;
+}
+.interestBox p {
+  padding-left: 20px;
+  font-size: 1.3rem;
+  padding-bottom: 1px;
+}
+.interestGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 4.5rem;
+}
+.interestGroup1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  gap: 2rem;
+}
 
+.interestBox1 {
+  border-radius: 20px;
+  height: 40rem;
+  width: 35rem;
+  background: white;
+  box-shadow: 1px 2px 10px 2px #53535349;
+  padding-bottom: 20px;
+}
+.interestBox1 img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.interestBox1 h3 {
+  font-size: 1.4rem;
+  padding: 4px;
+  padding-left: 20px;
+}
+.interestBox1 p {
+  padding-left: 20px;
+  font-size: 1.3rem;
+  padding-bottom: 1px;
+}
+.interestGroup2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
 /*End of interest*/
 
 /*Screen Flexibility*/
@@ -863,6 +939,25 @@ a {
     width: 100%;
     margin-bottom: 30px;
   }
+  .interestText h1 {
+    font-size: 3rem;
+  }
+  .interestGroup1 {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .interestBox {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .interestBox1 {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .interestGroup2 {
+    display: block;
+  }
 }
 @media only screen and (max-width: 640px) {
   .general-Content {
@@ -896,6 +991,23 @@ a {
   .home1 {
     margin-bottom: 20px;
     width: 100%;
+  }
+  .InBtn {
+    width: 20%;
+  }
+  .interestGroup {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .interestBox {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .interestGroup2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1rem;
   }
 }
 @media only screen and (max-width: 470px) {
@@ -973,5 +1085,13 @@ a {
   }
   .item2 button {
     margin-bottom: 50px;
+  }
+  .InBtn {
+    width: 30%;
+  }
+  .interestText h1 {
+    font-size: 1.8rem;
+    padding-left: 0px;
+    padding: 0px;
   }
 }
