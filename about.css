@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", system-ui;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Red Hat Display", system-ui;
+}
+
+.about {
+  padding-top: 13rem;
+  height: 70rem;
+  width: 100;
+  background: white;
+  padding-bottom: 20rem;
+}
+
+.aboutText h1 {
+  text-align: center;
+  font-size: 5rem;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aboutText p {
+  text-align: center;
+  font-size: 1.7rem;
+  padding-top: 10px;
+}
+.btnTalk {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 30px;
+}
+.btnTalk button {
+  cursor: pointer;
+  padding: 10px;
+  width: 20rem;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.btnTalk button:hover {
+  background: #dab612;
+}
+.aboutImage {
+  padding-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.aboutImage img {
+  width: 85%;
+  height: 60rem;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.aboutImageBox {
+  background: #080d13;
+  height: 50rem;
+  width: 100%;
+}
+.aboutFlex {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.flex1 {
+  width: 70%;
+}
+.flex1 h2 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+.flex1 p {
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.flexBox h3 {
+  font-size: 1.8rem;
+}
+.partners img {
+  width: 10rem;
+}
+.flexIn {
+  padding: 20px;
+}
+.flexIn h1 {
+  font-size: 3rem;
+}
+.flexIn p {
+  font-size: 1.4rem;
+}
+.mission {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+.mission h1 {
+  font-size: 4rem;
+}
+.mission p {
+  font-size: 1.8rem;
+  width: 65%;
+}
+
+.coreValues {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.coreValues h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+.valueBox {
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.valueBox img {
+  width: 40%;
+  border-radius: 20px;
+}
+.valueFlex p {
+  padding: 20px;
+  font-size: 1.7rem;
+  width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutText h1 {
+    font-size: 3.3rem;
+  }
+  .valueBox {
+    display: block;
+  }
+  .valueBox img {
+    width: 100%;
+  }
+  .valueFlex p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .mission {
+    display: block;
+  }
+  .mission h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mission p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .aboutFlex {
+    display: block;
+  }
+  .flex1 {
+    width: 100%;
+  }
+  .flex1 h2,
+  p,
+  .flexBox h3 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .partners {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .flexIn h1,
+  p {
+    text-align: center;
+  }
+  .valueBox {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .coreValues h1 {
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
