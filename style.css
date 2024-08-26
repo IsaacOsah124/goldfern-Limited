@@ -843,8 +843,56 @@ a {
 .submitBtn button:hover {
   background: #dab612;
 }
-
 /*End of emailContent*/
+
+/*Start of footer*/
+.footer {
+  width: 100%;
+  height: 50rem;
+  background: white;
+}
+.footerSec1 {
+  height: 46rem;
+  background: #080d13;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+.footerSec1 img {
+  height: 10rem;
+}
+.footUl p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(170, 170, 170);
+}
+.footUl li {
+  font-size: 1.7rem;
+  padding-top: 10px;
+}
+.footerSec2 {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.footerSec2 h3 {
+  font-size: 1.3rem;
+}
+.socials {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.socials i {
+  font-size: 15px;
+}
+/*End of footer*/
 
 /*Screen Flexibility*/
 @media only screen and (max-width: 1024px) {
@@ -1036,6 +1084,9 @@ a {
   .interestGroup2 {
     display: block;
   }
+  .footerSec1 img {
+    height: 8rem;
+  }
 }
 @media only screen and (max-width: 640px) {
   .general-Content {
@@ -1089,6 +1140,12 @@ a {
   }
   .emailText h1 {
     font-size: 4rem;
+  }
+  .footerSec1 img {
+    height: 7rem;
+  }
+  .footUl li {
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 470px) {
@@ -1196,5 +1253,14 @@ a {
     width: 50%;
     margin-left: 100px;
     margin-right: 100px;
+  }
+  .footerSec1 {
+    display: block;
+    height: 180%;
+    padding-left: 30px;
+  }
+  .footerSec1 img {
+    text-align: center;
+    margin-top: 20px;
   }
 }
