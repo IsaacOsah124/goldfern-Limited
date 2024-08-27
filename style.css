@@ -139,10 +139,12 @@ a {
 
 /*Beginning of Main Background*/
 .main-bg {
+  height: 80rem;
   display: block;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .main-bg img {
-  height: 120vh;
   object-fit: cover;
   width: 100%;
 }
