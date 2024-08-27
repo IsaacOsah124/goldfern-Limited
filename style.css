@@ -116,7 +116,6 @@ a {
 .nav-logo {
   font-size: 1.1rem;
   font-weight: 500;
-  color: #482ff7;
 }
 
 .nav-logo img {
@@ -190,6 +189,7 @@ a {
   font-weight: bold;
   border-radius: 20px;
   border: none;
+  color: black;
 }
 
 .find-Btn {
@@ -200,6 +200,7 @@ a {
   font-weight: bold;
   border-radius: 20px;
   border: none;
+  color: black;
 }
 
 /*End of Main Background*/
@@ -318,6 +319,7 @@ a {
   font-size: 1rem;
 }
 .cBtn {
+  color: black;
   border: 1px solid black;
   padding: 8px;
   width: 11rem;
@@ -339,6 +341,7 @@ a {
   padding-top: 50px;
 }
 .reqTour {
+  color: black;
   padding: 12px;
   width: 98%;
   font-weight: bold;
@@ -655,6 +658,7 @@ a {
   justify-content: center;
 }
 .item2 button {
+  color: black;
   cursor: pointer;
   font-weight: bold;
   padding: 8px;
